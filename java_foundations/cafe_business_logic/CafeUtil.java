@@ -28,7 +28,7 @@ public class CafeUtil {
         }
     }
 
-    void addCustomer(ArrayList<ArrayList<>> customers){
+    void addCustomer(ArrayList<String> customers){
         System.out.println("Please enter your name:");
         String userName = System.console().readLine();
         System.out.println("Hello, " + userName);
@@ -38,5 +38,4 @@ public class CafeUtil {
         // return customers;
     }
 
-    void printPriceChart(String product, double price, int maxQuantity)
 }
