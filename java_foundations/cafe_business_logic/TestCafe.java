@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 public class TestCafe {
@@ -34,9 +33,6 @@ public class TestCafe {
             appTest.addCustomer(customers);
             System.out.println("\n");
         }
-
-        ArrayList<Object> products = new ArrayList<Object>();
-        products.add(new ArrayList<Object>({"Colombian Coffee Grounds", 10, 3}));
         
     }
 }
