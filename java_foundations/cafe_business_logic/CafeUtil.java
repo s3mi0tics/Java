@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class CafeUtil {
 
-    public int getStreakGoal() {
+    int getStreakGoal() {
         int after10Weeks = 0;
         int week = 1;
         while (week <= 10) {
