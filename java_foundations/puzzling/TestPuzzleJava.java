@@ -28,4 +28,5 @@ public class TestPuzzleJava {
         ArrayList<Object> testShuffleArray = puzzleTest.shuffleArray(senseiArray);
         System.out.println(testShuffleArray);
     }
+    
 }
