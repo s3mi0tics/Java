@@ -21,6 +21,7 @@ alfredBot/AlfredQuotes.java
 import java.util.Date;
 public class AlfredQuotes {
     
+    
     public String basicGreeting() {
         // You do not need to code here, this is an example method
         return "Hello, lovely to see you. How are you?";
