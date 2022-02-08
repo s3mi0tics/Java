@@ -13,7 +13,6 @@ public class Order {
     // No arguments, sets name to "Guest", initializes items as an empty list.
     public Order(){
         this.name = "Guest";
-        // this.total = 0.0;
         this.ready = false;
         this.items = new ArrayList<Item>();
     }
@@ -22,7 +21,6 @@ public class Order {
     // Initializes items as an empty list.
     public Order(String name){
         this.name = name;
-        // this.total = 0.0;
         this.ready = false;
         this.items = new ArrayList<Item>();
     }
