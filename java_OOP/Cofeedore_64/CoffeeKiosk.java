@@ -55,7 +55,7 @@ public class CoffeeKiosk {
             this.orders.add(newOrder);
         }
             //NINJA Bonus
-            public void addMenuItemByInput(){
+            public void  addMenuItemByInput(){
                 System.out.println("Please enter a new menu item name");
                 String newItemName = System.console().readLine();
                 System.out.println("Please enter a new menu item price");
