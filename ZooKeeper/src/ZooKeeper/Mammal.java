@@ -2,7 +2,7 @@ package ZooKeeper;
 
 
 public class Mammal {
-	private int energyLevel;
+	protected int energyLevel;
 	
 	public Mammal() {
 		// TODO Auto-generated constructor stub
