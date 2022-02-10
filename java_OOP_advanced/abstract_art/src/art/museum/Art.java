@@ -5,6 +5,11 @@ public abstract class Art {
 	private String author;
 	private String description;
 	
+	public Art(String title, String author, String description) {
+		this.setTitle(title);
+		this.setAuthor(author);
+		this.setDescription(description);
+	}
 	
 	public abstract void viewArt();
 

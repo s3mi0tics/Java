@@ -4,11 +4,8 @@ public class Painting extends Art {
 		private String paintType;
 		
 		public Painting(String title, String author, String description, String paintType) {
-			super();
+			super(title, author, description);
 			this.setPaintType(paintType) ;
-			this.setTitle(title);
-			this.setAuthor(author);
-			this.setDescription(description);
 		}
 		
 		@Override

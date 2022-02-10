@@ -5,11 +5,8 @@ public class Sculpture extends Art {
 	private String material;
 	
 	public Sculpture(String title, String author, String description, String material) {
-			super();
-			this.material = material;
-			this.setTitle(title);
-			this.setAuthor(author);
-			this.setDescription(description);
+			super(title, author, description);
+			this.setMaterial(material);
 		}
 	
 	@Override
