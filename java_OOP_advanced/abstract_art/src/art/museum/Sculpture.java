@@ -11,9 +11,7 @@ public class Sculpture extends Art {
 	
 	@Override
 	public void viewArt() {
-		System.out.println("This sculpture: " + this.getTitle() + " made of: " + this.getMaterial() + " is by: " + this.getAuthor() + " Description: " + this.getDescription());
-	
-		
+		System.out.println("This sculpture: " + this.getTitle() + " made of: " + this.getMaterial() + " is by: " + this.getAuthor() + " Description: " + this.getDescription());	
 	}
 	
 	//GETTERS AND SETTERS
