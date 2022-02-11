@@ -1,10 +1,10 @@
-package com.colby.diakachiroroutes;
+package com.colby.diakachiroutes;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DaikachiroroutesApplicationTests {
+class DiakachiRoutesApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -8,12 +8,12 @@
 		<version>2.6.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.colby.diakachiroroutes</groupId>
-	<artifactId>daikachiroroutes</artifactId>
+	<groupId>com.colby.diakachiroutes</groupId>
+	<artifactId>diakachi_routes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>daikachiroroutes</name>
-	<description>Diakachiroroutes</description>
+	<name>diakachi_routes</name>
+	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

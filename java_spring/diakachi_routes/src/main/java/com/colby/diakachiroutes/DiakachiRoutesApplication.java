@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DaikachiroutesApplication {
+public class DiakachiRoutesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DaikachiroutesApplication.class, args);
+		SpringApplication.run(DiakachiRoutesApplication.class, args);
 	}
 
 }
