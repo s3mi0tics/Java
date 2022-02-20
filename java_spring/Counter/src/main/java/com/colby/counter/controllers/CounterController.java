@@ -41,20 +41,17 @@ public class CounterController {
 				int count = (int) session.getAttribute("count");
 				count += 2;
 				session.setAttribute("count", count);
-				String redirectCounter = "/your_server/counter";
-				return "redirect:" + redirectCounter; 
+				return "redirect:/your_server/counter"; 
 			}
 		@RequestMapping("/delete")
 		public String delete(HttpSession session) {
 				session.removeAttribute("count");
-				String redirectYourServer = "";
-				return "redirect:" + redirectYourServer; 
+				return "redirect:/";
 			}
 		@RequestMapping("/reset")
 		public String counter(HttpSession session) {
 			session.removeAttribute("count");
-			String redirectUrl = "/your_server";
-	        return "redirect:" + redirectUrl;
+	        return "redirect:/your_server";
 		}
 	} 
 

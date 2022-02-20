@@ -16,10 +16,10 @@
 </head>
 <body>
 <h1 >You have visited your server <c:out value= "${currentCount}" /> times</h1>
-<div class ="text_dark">
-<h2 class= "text-dark btn btn-primary mx-auto m-5"><a href="/your_server">Test another visit</a></h2>
-<h2 class= "text-dark btn btn-danger mx-auto m-5"><a href="/your_server/delete">Delete</a></h2>
-<h2 class= "text-dark btn btn-success mx-auto m-5"><a href="/your_server/add2">visit your server 2 more times but be redirected back to this page!!!!!!</a></h2>
+<div>
+<a class = "btn btn-success mx-auto m-5 link-dark" href="/your_server">Test another visit</a>
+<a class = "btn btn-success mx-auto m-5 link-dark" href="/your_server/delete">Delete</a>
+<a class = "btn btn-success mx-auto m-5 link-dark" href="/your_server/add2">visit your server 2 more times but be redirected back to this page!!!!!!</a>
 </div>
 </body>
 </html> 

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Algorithms/dojo_algorithms/dojo_JAVA_algorithms/que"
+		},
+		{
+			"name": "save_travels",
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}

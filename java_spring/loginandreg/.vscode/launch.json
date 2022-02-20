@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LoginandregcodealongApplication<loginandregcodealong>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.colby.loginandregcodealong.loginandregcodealong.LoginandregcodealongApplication",
+            "projectName": "loginandregcodealong",
+            "args": ""
+        }
+    ]
+}

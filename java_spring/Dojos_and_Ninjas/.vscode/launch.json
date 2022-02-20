@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        
+
+        {
+            "type": "java",
+            "name": "Spring Boot-DojosandninjasApplication<dojosandninjas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.colby.dojos_and_ninjas.dojosandninjas.DojosandninjasApplication",
+            "projectName": "dojosandninjas",
+            "args": ""
+        }
+    ]
+}
