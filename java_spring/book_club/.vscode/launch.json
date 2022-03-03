@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-BookclubApplication<loginandregcodealong>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.colby.bookclub.bookclub.BookclubApplication",
+            "projectName": "loginandregcodealong",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BookclubApplication<bookclub>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.colby.bookclub.bookclub.BookclubApplication",
+            "projectName": "bookclub",
+            "args": ""
+        }
+    ]
+}

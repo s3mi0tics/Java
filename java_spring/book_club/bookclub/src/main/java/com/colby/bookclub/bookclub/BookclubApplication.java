@@ -1,4 +1,4 @@
-package com.colby.coding.dojo.mvc;
+package com.colby.bookclub.bookclub;
 
 import org.apache.catalina.connector.Connector;
 import org.apache.coyote.ajp.AbstractAjpProtocol;
@@ -8,10 +8,10 @@ import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactor
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class MvcApplication {
+public class BookclubApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MvcApplication.class, args);
+		SpringApplication.run(BookclubApplication.class, args);
 	}
     @Bean
     public TomcatServletWebServerFactory servletContainer() {
@@ -26,3 +26,4 @@ public class MvcApplication {
         return tomcat;
     }
 }
+

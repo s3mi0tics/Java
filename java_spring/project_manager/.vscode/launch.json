@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ProjectmanagerApplication<projectmanager>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.colby.projectmanager.projectmanager.ProjectmanagerApplication",
+            "projectName": "projectmanager",
+            "args": ""
+        }
+    ]
+}
